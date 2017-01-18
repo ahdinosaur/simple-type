@@ -51,5 +51,12 @@
     "tape": "^4.5.1"
   },
   "dependencies": {
+    "babel-plugin-transform-es2015-destructuring": "^6.9.0",
+    "babel-plugin-transform-es2015-literals": "^6.8.0",
+    "babel-plugin-transform-es2015-parameters": "^6.9.0",
+    "babel-plugin-transform-es2015-shorthand-properties": "^6.8.0",
+    "babel-plugin-transform-es2015-spread": "^6.8.0",
+    "babel-preset-es2020": "^1.0.2",
+    "babelify": "^7.3.0"
   }
 }

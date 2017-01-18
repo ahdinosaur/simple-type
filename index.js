@@ -4,7 +4,8 @@ module.exports = Object.assign(
     validate: require('./validate'),
     is: require('./is'),
     struct: require('./struct'),
-    compose: require('./compose')
+    compose: require('./compose'),
+    maybe: require('./maybe')
   },
   require('./types')
 )

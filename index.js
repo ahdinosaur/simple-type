@@ -6,7 +6,7 @@ module.exports = Object.assign(
     struct: require('./struct'),
     compose: require('./compose'),
     Maybe: require('./maybe'),
-    Some: require('./some'),
+    Any: require('./any'),
     Dict: require('./dictionary')
   },
   require('./types')

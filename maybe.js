@@ -1,5 +1,5 @@
-var Some = require('./some')
+var Any = require('./any')
 var {Nil} = require('./types')
 
-module.exports = (type) => Some([type, Nil])
+module.exports = (type) => Any([type, Nil])
 

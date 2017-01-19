@@ -1,9 +1,5 @@
-var is = require('./is')
+var Some = require('./some')
 var {Nil} = require('./types')
 
-module.exports = (type) => (val) => {
-  return is(type, val) || is(Nil, val)
-    ? val
-    : new TypeError(`expected a either nil or type: ${type}`)
-}
+module.exports = (type) => Some([type, Nil])
 

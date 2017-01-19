@@ -5,9 +5,9 @@ module.exports = Object.assign(
     is: require('./is'),
     struct: require('./struct'),
     compose: require('./compose'),
-    maybe: require('./maybe'),
-    some: require('./some'),
-    dict: require('./dictionary'),
+    Maybe: require('./maybe'),
+    Some: require('./some'),
+    Dict: require('./dictionary')
   },
   require('./types')
 )

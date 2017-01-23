@@ -1,9 +1,9 @@
 var types = require('./types')
-var compose = require('./compose')
+var AllOf = require('./AllOf')
 var is = require('./is')
 
 module.exports = function dictionary (value, covalue) {
-  return compose(
+  return AllOf([
     types.Object,
     (object) => {
       return Object.keys(object).every(
@@ -11,5 +11,5 @@ module.exports = function dictionary (value, covalue) {
         ? object
         : new TypeError(`Expected ${object} to have all keys and vals {${value} : ${covalue}}`)
     }
-  )
+  ])
 }

@@ -9,3 +9,7 @@ test('mintype', function (t) {
 
 require('./types')
 require('./struct')
+require('./maybe')
+require('./oneOf')
+require('./anyOf')
+require('./dict')

@@ -2,7 +2,7 @@ const test = require('tape')
 
 const ty = require('../')
 
-const maybe = ty.maybe
+const maybe = ty.Maybe
 
 test('maybe is a function', function (t) {
   t.equal(typeof maybe, 'function')

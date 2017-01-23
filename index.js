@@ -4,10 +4,11 @@ module.exports = Object.assign(
     validate: require('./validate'),
     is: require('./is'),
     struct: require('./struct'),
-    compose: require('./compose'),
-    Maybe: require('./maybe'),
-    Any: require('./any'),
-    Dict: require('./dictionary')
+    Maybe: require('./Maybe'),
+    AnyOf: require('./AnyOf'),
+    AllOf: require('./AllOf'),
+    OneOf: require('./OneOf'),
+    Dict: require('./Dict')
   },
   require('./types')
 )

@@ -2,7 +2,7 @@ var test = require('tape')
 
 var types = require('../types')
 var is = require('../is')
-var dictionary = require('../dictionary')
+var dictionary = require('../Dict')
 var validate = require('../validate')
 
 test('dictionary is a function', function (t) {

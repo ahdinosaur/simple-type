@@ -16,5 +16,5 @@ test('AllOf works with one elem in array ', function (t) {
   ])
   t.ok(is(oneString, '1'))
   t.false(is(oneString, '2'))
-  t.end() 
+  t.end()
 })

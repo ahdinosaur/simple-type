@@ -2,7 +2,7 @@ var test = require('tape')
 
 var types = require('../types')
 var is = require('../is')
-var AnyOf = require('../AnyOf') 
+var AnyOf = require('../AnyOf')
 
 test('AnyOf is a function', function (t) {
   t.equal(typeof AnyOf, 'function')

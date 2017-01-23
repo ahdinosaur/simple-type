@@ -3,7 +3,7 @@ module.exports = Object.assign(
     create: require('./create'),
     validate: require('./validate'),
     is: require('./is'),
-    struct: require('./struct'),
+    Struct: require('./Struct'),
     Maybe: require('./Maybe'),
     AnyOf: require('./AnyOf'),
     AllOf: require('./AllOf'),

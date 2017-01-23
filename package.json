@@ -7,7 +7,7 @@
     "test:deps": "dependency-check . ",
     "test:lint": "standard",
     "test:node": "NODE_ENV=test tape test/*.js",
-    "test:coverage": "NODE_ENV=test istanbul cover test/index.js",
+    "test:coverage": "NODE_ENV=test istanbul cover tape test/*.js",
     "test": "npm-run-all -s test:deps test:lint test:node"
   },
   "browserify": {
